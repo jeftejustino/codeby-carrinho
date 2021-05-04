@@ -18,6 +18,12 @@ export const Header = styled.div`
   padding: 25px 0px;
 `
 
+export const Loading = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+`
+
 export const Products = styled.div`
   border-bottom: 1px solid #aaa;
   padding: 30px 20px;
@@ -78,7 +84,7 @@ export const Footer = styled.div`
       outline: none;
       border: none;
       cursor: pointer;
-      opacity: 0.7;
+      opacity: 0.8;
     }
   }
 `
